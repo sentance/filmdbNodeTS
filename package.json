@@ -11,6 +11,7 @@
     "routing-controllers": "^0.9.0"
   },
   "scripts": {
+    "start": "nodemon --config nodemon.json index.ts",
     "dev": "nodemon --config nodemon.json index.ts",
     "dev:debug": "nodemon --config nodemon.json --inspect-brk index.ts"
   },
